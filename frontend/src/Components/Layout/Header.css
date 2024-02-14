@@ -1,0 +1,46 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #a2ffa4; /* Pastel Green color */
+    color: #333; /* Dark text color for contrast */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333; /* Dark text color for contrast */
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: #333; /* Dark text color for contrast */
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .auth-button {
+    text-decoration: none;
+    color: #333; /* Dark text color for contrast */
+    padding: 0.5rem 1rem;
+    border: 1px solid #333; /* Dark border for contrast */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .auth-button:hover {
+    background-color: #87ff8a; /* Lighter shade on hover */
+  }
+  
